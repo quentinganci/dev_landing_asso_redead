@@ -64,6 +64,15 @@ BANDEAU COULEURS ---------------------------------------------------------------
     }
 }
 
+@media screen and (max-width: 768px){
+    .bandeau-couleurs {
+        .container-couleurs {
+            padding: 7px;
+        }
+    }
+    
+}
+
 
 /***
 OBJECTIFS ------------------------------------------------------------------------------------------------------------------------------
@@ -103,11 +112,18 @@ OBJECTIFS ----------------------------------------------------------------------
                 }
             }
 
-            .column:nth-child(2),.column:nth-child(6) {
+            .illu-centre {
+                height: 230px;
+            }
+
+            .column:nth-child(2) {
                 padding-left: 2rem;
+            }          
+            .column:nth-child(6) {
+                padding-left: 4rem;
             }
             .column:nth-child(3) {
-                padding-right: 2rem;
+                padding-right: 4rem;
             }
         }
     }
@@ -148,6 +164,8 @@ ACTIONS ------------------------------------------------------------------------
 
     .div-big {
     position: relative;
+    display: inline-flex;
+    width: 100%;
 
         .p-big {
             font-size: 100px;
@@ -268,6 +286,7 @@ BANDEAU INSPIRE ----------------------------------------------------------------
                     &:hover {
                         font-weight: 400;
                         color: #FF993B;
+                        padding-bottom: calc(0.3rem - 1.5px);
                         border-bottom: 1.5px solid #FF993B;
                     }
                 }
@@ -286,11 +305,48 @@ CONTACT ------------------------------------------------------------------------
 
     .container-contact {
         flex-wrap: wrap;
+        margin-top: 5px;
 
         .p-contact {
             width: 50%;
             font-size: 18px;
             color: #FF993B;
+        }
+    }
+
+    .column {
+        color: #FF993B;
+        padding-top: 0px;
+        .h3-contact {
+            font-size: 20px;
+            font-weight: 300;
+        }
+        .h4-contact {
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .label {
+            color: #FF993B;
+            margin-top: 1.5rem;
+        }
+        .input {
+            border: none;
+            border-bottom: 1.5px solid #FF993B;
+            box-shadow: none;
+            border-radius: 0px;
+            width: 60%;
+        }
+        .textarea {
+            border: 1.5px solid #FF993B;
+            box-shadow: none;
+            border-radius: 20px;
+            height: 300px;
+            max-height: 300px;
+        }
+        .submit-container {
+            display: flex;
+            justify-content: flex-end;
+            padding: 1rem 0rem;
         }
     }
 }

@@ -3,66 +3,79 @@ FOOTER -------------------------------------------------------------------------
 ***/
 
 .footer {
-    background-color: #333333;
-    margin-bottom: 0px;
-    padding: 12px;
-    font-family: 'Lato', sans-serif;
-    .a-footer {
-      font-size:12px;
+  background-color: #333333;
+  margin-bottom: 0px;
+  padding: 12px;
+  font-family: 'Lato', sans-serif;
+  .a-footer {
+    font-size:12px;
+    color: #FFF;
+
+    &:hover {
       color: #FFF;
-  
-      &:hover {
-        color: #FFF;
-      }
-      &:first-child {
-        margin-left: 16px;
-      }
-      &:last-child {
-        margin-left: 2rem;
-        margin-left: 1rem;
-      }
     }
-  
-    .p-footer {
-        font-size:12px;
-        color: #FFF;
-        margin-right: 1.5rem;
-        margin-left: 62px;
+    &:first-child {
+      margin-left: 16px;
+    }
+    &:last-child {
+      margin-left: 2rem;
+      margin-left: 1rem;
     }
   }
 
-  .content p:not(:last-child){
-      margin-bottom: 0px;
+  .p-footer {
+    font-size:12px;
+    color: #FFF;
+    margin-right: 1.5rem;
+    margin-left: 62px;
   }
-  
-  .column-container{
-    width: 100%;
-  }
-  
-  .container-footer{
-    display: inline-flex;
-    width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
-  }
-  
-  .first-footer-container{
+
+  .submit-container {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  
+    justify-content: end;
+    width: 48px;
   }
-  
-  .second-footer-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
+
+  .picto-send {
+    width: 48px;
   }
-  
-  .third-footer-container{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  
-  }
+}
+
+
+
+.content p:not(:last-child){
+    margin-bottom: 0px;
+}
+
+.column-container{
+  width: 100%;
+}
+
+.container-footer{
+  display: inline-flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.first-footer-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.second-footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.third-footer-container{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+

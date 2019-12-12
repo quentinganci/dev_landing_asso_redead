@@ -9399,6 +9399,8 @@ HEADER -------------------------------------------------------------------------
 .container-picto-scroll {
   display: flex;
   justify-content: center;
+  width: 40px;
+  margin: 0 auto;
 }
 
 /***
@@ -9458,6 +9460,11 @@ BANDEAU COULEURS ---------------------------------------------------------------
   background-color: #FF993B;
 }
 
+@media screen and (max-width: 768px) {
+  .bandeau-couleurs .container-couleurs {
+    padding: 7px;
+  }
+}
 /***
 OBJECTIFS ------------------------------------------------------------------------------------------------------------------------------
 ***/
@@ -9491,11 +9498,17 @@ OBJECTIFS ----------------------------------------------------------------------
   color: #FF993B;
   font-size: 16px;
 }
-.section-objectifs .objectifs .container-objectifs .column:nth-child(2), .section-objectifs .objectifs .container-objectifs .column:nth-child(6) {
+.section-objectifs .objectifs .container-objectifs .illu-centre {
+  height: 230px;
+}
+.section-objectifs .objectifs .container-objectifs .column:nth-child(2) {
   padding-left: 2rem;
 }
+.section-objectifs .objectifs .container-objectifs .column:nth-child(6) {
+  padding-left: 4rem;
+}
 .section-objectifs .objectifs .container-objectifs .column:nth-child(3) {
-  padding-right: 2rem;
+  padding-right: 4rem;
 }
 
 /***
@@ -9529,6 +9542,8 @@ ACTIONS ------------------------------------------------------------------------
 }
 .actions .div-big {
   position: relative;
+  display: inline-flex;
+  width: 100%;
 }
 .actions .div-big .p-big {
   font-size: 100px;
@@ -9635,6 +9650,7 @@ BANDEAU INSPIRE ----------------------------------------------------------------
 .bandeau-inspire .container-inspire .container-blocs .bloc .inspiration:hover {
   font-weight: 400;
   color: #FF993B;
+  padding-bottom: calc(0.3rem - 1.5px);
   border-bottom: 1.5px solid #FF993B;
 }
 
@@ -9647,11 +9663,47 @@ CONTACT ------------------------------------------------------------------------
 }
 .contact .container-contact {
   flex-wrap: wrap;
+  margin-top: 5px;
 }
 .contact .container-contact .p-contact {
   width: 50%;
   font-size: 18px;
   color: #FF993B;
+}
+.contact .column {
+  color: #FF993B;
+  padding-top: 0px;
+}
+.contact .column .h3-contact {
+  font-size: 20px;
+  font-weight: 300;
+}
+.contact .column .h4-contact {
+  font-size: 20px;
+  font-weight: 700;
+}
+.contact .column .label {
+  color: #FF993B;
+  margin-top: 1.5rem;
+}
+.contact .column .input {
+  border: none;
+  border-bottom: 1.5px solid #FF993B;
+  box-shadow: none;
+  border-radius: 0px;
+  width: 60%;
+}
+.contact .column .textarea {
+  border: 1.5px solid #FF993B;
+  box-shadow: none;
+  border-radius: 20px;
+  height: 300px;
+  max-height: 300px;
+}
+.contact .column .submit-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 0rem;
 }
 
 /***
@@ -9704,6 +9756,14 @@ FOOTER -------------------------------------------------------------------------
   color: #FFF;
   margin-right: 1.5rem;
   margin-left: 62px;
+}
+.footer .submit-container {
+  display: flex;
+  justify-content: end;
+  width: 48px;
+}
+.footer .picto-send {
+  width: 48px;
 }
 
 .content p:not(:last-child) {
