@@ -1,0 +1,66 @@
+/***
+HEADER ------------------------------------------------------------------------------------------------------------------------------
+***/
+
+.cta-aidez {
+    color: #F07F25;
+    font-weight: 700;
+    padding: 0rem 2.5rem 0rem 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.columns:not(:last-child) {
+    margin-bottom: 0px;
+}
+
+.container-headline {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    .h1-headline {
+        color: #F07F25;
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    .subline {
+        color: #FDC735;
+        margin-bottom: 1rem;
+        font-size: 36px;
+        font-weight: 500;
+    }
+
+    .text-headline {
+        color: #F07F25;
+        margin-bottom: 3rem;
+    }
+
+    .cta-decouvrez {
+        color: #ffffff;
+        background-color: #FF8202;
+        margin-bottom: 5rem;
+        border-radius: 40px;
+
+        .picto-cta {
+            width: 15px;
+            position: relative;
+            top: 1px;
+        }
+    }
+}
+
+.container-cta {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.5rem 2.5rem 0rem 0rem;
+}
+
+.container-illu {
+    margin-right: 6rem;
+}
+
+.container-picto-scroll {
+    display: flex;
+    justify-content: center;
+}

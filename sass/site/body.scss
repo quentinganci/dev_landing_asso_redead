@@ -1,0 +1,297 @@
+/***
+FONT ------------------------------------------------------------------------------------------------------------------------------
+***/
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/***
+SCROLL ------------------------------------------------------------------------------------------------------------------------------
+***/
+
+html {
+    scroll-behavior: smooth;
+}
+
+/***
+BANDEAU COULEURS ------------------------------------------------------------------------------------------------------------------------------
+***/
+.bandeau-couleurs {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem 0rem 0rem;
+
+    .container-couleurs {
+        border: 1.6px solid #F07F25;
+        border-radius: 20px;
+        padding: 1rem 4rem;
+
+        .h2-couleurs {
+            color: #FF993B;
+            text-align: center;
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+
+        .container-blocs {
+            display: flex;
+            justify-content: space-between;
+
+            .bloc {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .carre {
+                    width: 50px;
+                    height: 50px;
+                }
+                
+                .couleur {
+                    color: #E9E9E9;
+                    padding-top: 0.3rem;
+                    margin-top: 0.6rem;
+                    border-top: 5px solid #E9E9E9;
+                }
+
+                .orange {
+                    background-color: #FF993B;
+                }
+            }
+        }
+    }
+}
+
+
+/***
+OBJECTIFS ------------------------------------------------------------------------------------------------------------------------------
+***/
+
+.section-objectifs {
+    margin: 6rem 0rem;
+
+    .h2-objectifs {
+        color: #FF993B;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .objectifs {
+        justify-content: center;
+
+        .container-objectifs {
+            flex-wrap: wrap;
+            align-items: center;
+
+            .column {
+                .container-img {
+                    display: flex;
+                    justify-content: center;
+                }
+                .h3-objectifs {
+                    color: #FF993B;
+                    font-size: 20px;
+                    font-weight: 600;
+                    margin-bottom: 1rem;
+                }
+                .p-objectifs {
+                    color: #FF993B;
+                    font-size: 16px;
+                }
+            }
+
+            .column:nth-child(2),.column:nth-child(6) {
+                padding-left: 2rem;
+            }
+            .column:nth-child(3) {
+                padding-right: 2rem;
+            }
+        }
+    }
+}
+
+/***
+ACTIONS ------------------------------------------------------------------------------------------------------------------------------
+***/
+
+.actions {
+    background-color: #FF8A00;
+
+    .h2-actions {
+        color: #FFF;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 4rem;
+    }
+
+    .boite-video {
+        height: 370px;
+        background-color: #565656;
+        margin-top: 3rem;
+    }
+
+    .h3-actions {
+        color: #FFF;
+        font-size: 20px;
+        margin-bottom: 2rem;
+    }
+    .p-actions {
+        color: #FFF;
+    }
+    .column:nth-child(3){
+        padding-right: 2.5rem;
+    }
+
+    .div-big {
+    position: relative;
+
+        .p-big {
+            font-size: 100px;
+            font-weight: 600;
+            line-height: 136px;
+        }
+    }
+    .div-savoir {
+        display: flex;
+        justify-content: center;
+        .a-savoir {
+            padding: 0rem 2.2rem;
+        }    
+    }
+}
+
+/***
+ACTUALITES ------------------------------------------------------------------------------------------------------------------------------
+***/
+
+.actualites {
+    margin: 4rem 0rem;
+    .h2-actualites {
+        color: #FF993B;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 4rem;
+    }
+
+    .column-actualites {
+        justify-content: center;
+
+        .container-actualites {
+            justify-content: center;
+
+            .column {
+                padding: 1.2rem;
+
+                .description {
+                    width: 94%;
+                    margin: 0 auto;
+                    border-radius: 0px;
+                    position: relative;
+                    bottom: 30px;
+                    padding-top: 0.7rem;
+
+                    .h3-article {
+                        color: #F07F25;
+                        font-weight: 600;
+                        font-size: 18px;
+                    }
+                    
+                    .lien-article {
+                        
+                        .h4-article {
+                            color: #85807D;
+                            font-size: 16px;
+                            font-weight: 700;
+                            margin-top: 0.7rem;
+                        }
+                        .p-article {
+                            color: #85807D;
+                            font-size: 14px;
+                            font-weight: 500;
+                        }
+                    }
+                        
+                }
+                #extended-padding{
+                    padding-bottom: 95px;
+                }
+            }
+        }
+    }
+}
+
+/***
+BANDEAU INSPIRE ------------------------------------------------------------------------------------------------------------------------------
+***/
+.bandeau-inspire {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem 3rem 0rem;
+
+    .container-inspire {
+        border: 1.6px solid #F07F25;
+        border-radius: 20px;
+        padding: 1rem 4rem;
+
+        .h2-inspire {
+            color: #FF993B;
+            text-align: center;
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+
+        .container-blocs {
+            display: flex;
+            justify-content: space-between;
+
+            .bloc {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .carre {
+                    width: 50px;
+                    height: 50px;
+                }
+                
+                .inspiration {
+                    font-size: 28px;
+                    font-weight: 300;
+                    padding-bottom: 0.3rem;
+                    margin-top: 0.6rem;
+                    &:hover {
+                        font-weight: 400;
+                        color: #FF993B;
+                        border-bottom: 1.5px solid #FF993B;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/***
+CONTACT ------------------------------------------------------------------------------------------------------------------------------
+***/
+
+.contact {
+    justify-content: space-evenly;
+    margin-top: 4rem;
+
+    .container-contact {
+        flex-wrap: wrap;
+
+        .p-contact {
+            width: 50%;
+            font-size: 18px;
+            color: #FF993B;
+        }
+    }
+}
+

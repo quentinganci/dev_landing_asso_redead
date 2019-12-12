@@ -1,0 +1,25 @@
+/***
+NAVBAR ------------------------------------------------------------------------------------------------------------------------------
+***/
+
+.hero .navbar {
+    background-color: #565656;
+    width: 95%;
+    margin: 0.8rem auto 0px auto;
+    border-radius: 10px;
+
+    .navbar-brand {
+        display: flex;
+        margin-left: 2px;
+    }
+
+    .navbar-item {
+        color: #FFF;
+        margin-right: 1rem;
+
+        &:hover {
+            background: none;
+            font-weight: 800;
+        }
+    }
+}
