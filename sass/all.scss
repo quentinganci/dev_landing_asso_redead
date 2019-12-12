@@ -1,5 +1,7 @@
 @charset "utf-8";
-@import "site/header.scss";
-@import "site/body.scss";
-@import "site/navbar.scss";
-@import "site/footer.scss";
+@import "../bulma.sass";
+
+@import "./site/header.scss";
+@import "./site/body.scss";
+@import "./site/navbar.scss";
+@import "./site/footer.scss";
