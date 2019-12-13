@@ -22,4 +22,18 @@ NAVBAR -------------------------------------------------------------------------
             font-weight: 800;
         }
     }
+
+    .navbar-burger {
+        color: #FFF;
+
+        &:hover {
+            color: #FFF;
+        }
+    }
+
+    @media screen and (max-width: 1023px){
+        .navbar-menu {
+            background-color: #565656;
+        }
+    }
 }

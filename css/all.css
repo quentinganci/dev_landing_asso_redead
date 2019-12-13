@@ -9459,6 +9459,27 @@ BANDEAU COULEURS ---------------------------------------------------------------
 .bandeau-couleurs .container-couleurs .container-blocs .bloc .orange {
   background-color: #FF993B;
 }
+.bandeau-couleurs .container-couleurs .container-blocs .bloc .rouge:hover {
+  background-color: #FF0000;
+}
+.bandeau-couleurs .container-couleurs .container-blocs .bloc .yellow:hover {
+  background-color: #FFE600;
+}
+.bandeau-couleurs .container-couleurs .container-blocs .bloc .vert:hover {
+  background-color: #14FF00;
+}
+.bandeau-couleurs .container-couleurs .container-blocs .bloc .rouge:hover {
+  background-color: #00E0FF;
+}
+.bandeau-couleurs .container-couleurs .container-blocs .bloc .rouge:hover {
+  background-color: #001AFF;
+}
+.bandeau-couleurs .container-couleurs .container-blocs .bloc .rouge:hover {
+  background-color: #DB00FF;
+}
+.bandeau-couleurs .container-couleurs .container-blocs .bloc .rouge:hover {
+  background-color: #FF00A8;
+}
 
 @media screen and (max-width: 768px) {
   .bandeau-couleurs .container-couleurs {
@@ -9726,6 +9747,17 @@ NAVBAR -------------------------------------------------------------------------
 .hero .navbar .navbar-item:hover {
   background: none;
   font-weight: 800;
+}
+.hero .navbar .navbar-burger {
+  color: #FFF;
+}
+.hero .navbar .navbar-burger:hover {
+  color: #FFF;
+}
+@media screen and (max-width: 1023px) {
+  .hero .navbar .navbar-menu {
+    background-color: #565656;
+  }
 }
 
 /***
