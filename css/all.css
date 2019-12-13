@@ -7130,12 +7130,20 @@ ACTIONS ------------------------------------------------------------------------
     .actions .div-big .p-big {
       font-size: 100px;
       font-weight: 600;
-      line-height: 136px; }
+      line-height: 136px;
+      color: rgba(255, 255, 255, 0.59); }
   .actions .div-savoir {
     display: flex;
     justify-content: center; }
     .actions .div-savoir .a-savoir {
       padding: 0rem 2.2rem; }
+
+.briser-la-glace {
+  width: 36%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  margin-top: -9%; }
 
 /***
 ACTUALITES ------------------------------------------------------------------------------------------------------------------------------
