@@ -7134,7 +7134,8 @@ ACTIONS ------------------------------------------------------------------------
       color: rgba(255, 255, 255, 0.59); }
   .actions .div-savoir {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    width: 29%; }
     .actions .div-savoir .a-savoir {
       padding: 0rem 2.2rem; }
 
